@@ -3,9 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url(./mobile-version.css);
 
-/* ======================= */
 /* Default style           */
-/* ======================= */
+
 * {
   margin: 0;
   padding: 0;
@@ -180,6 +179,7 @@ header {
   border: 0px;
   font-size: 1rem;
   color: #fff;
+  text-transform: uppercase;
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
 }
 .hero-button {
